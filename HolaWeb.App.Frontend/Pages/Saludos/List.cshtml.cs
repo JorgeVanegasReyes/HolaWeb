@@ -9,7 +9,7 @@ namespace HolaWeb.App.Frontend.Pages
 {
     public class ListModel : PageModel
     {
-    private string[] saludos= {"Nuevo cambio en GITHUB","Sdrasvitia", "Bon Jorno", "Bon Jour","Hello"}; //atributo de la clase
+    private string[] saludos= {"Nuevo cambio desde GITHUB a VS Code","Sdrasvitia", "Bon Jorno", "Bon Jour","Hello"}; //atributo de la clase
 
     public List<string> ListaSaludos {get;set;} //propiedad de la clase
 
