@@ -1,0 +1,13 @@
+﻿@page
+@model HolaWeb.App.Frontend.Pages.ListModel
+@{
+}
+<h1>Listado de Saludos en varios idiomas</h1>
+<table class="table">
+    @foreach (var saludo in Model.ListaSaludos) //se coloca la propiedad de List.cshtml.cs
+    {
+        <tr>
+            <td>@saludo</td>
+        </tr>
+    }
+</table>
