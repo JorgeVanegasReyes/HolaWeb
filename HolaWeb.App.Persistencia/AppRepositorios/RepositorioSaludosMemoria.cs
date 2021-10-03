@@ -33,6 +33,18 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
         {
             return saludos.SingleOrDefault(s => s.Id == saludoId);
         }
+        public Saludo Update(Saludo saludoActualizado)
+        {
+            var saludo=saludos.SingleOrDefault (r => r.Id== saludoActualizado.Id);
+            if (saludo != null)
+            {
+                saludo.EnEspanol = saludoActualizado.EnEspanol;
+                saludo.EnIngles = saludoActualizado.EnIngles;
+                saludo.EnItaliano = saludoActualizado.EnItaliano;
+            }
+            return saludo;
+
+        }
 
     }
 
