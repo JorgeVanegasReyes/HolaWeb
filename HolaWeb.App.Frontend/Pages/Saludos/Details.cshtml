@@ -1,0 +1,37 @@
+﻿@page
+@model HolaWeb.App.Frontend.Pages.DetailsModel
+@{
+}
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/estilos3.css" />
+    </head>
+
+<body>
+<h1>DATOS PERSONALES</h1>
+<br>
+<h2>@Model.Saludo.EnEspanol</h2>
+<br>
+<div> 
+    Id:@Model.Saludo.Id
+</div>
+<br>
+<div> 
+    Cedula de Ciudadania:@Model.Saludo.EnIngles
+</div>
+<br>
+<div> 
+    Celular:@Model.Saludo.EnItaliano
+</div>
+<br>
+<a asp-page="./List" class="btn-default">Datos Personales</a>
+
+</body>
+
+</html>

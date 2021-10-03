@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fw8ViJ7EMckfqyDb95IgT0ECJx57Vuo6J1f31PM4K1iy0I+e9ZWiNlvDTYa1sFGImfE2+Ebk2RNYTAqRwI3i+w==",
+  "success": true,
+  "projectFilePath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Dominio\\HolaWeb.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jorge Eduardo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jorge Eduardo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

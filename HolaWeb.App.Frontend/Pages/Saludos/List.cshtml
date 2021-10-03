@@ -2,12 +2,41 @@
 @model HolaWeb.App.Frontend.Pages.ListModel
 @{
 }
-<h1>Listado de Saludos en varios idiomas</h1>
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/estilos2.css" />
+    </head>
+
+<body>
+<h1>DATOS PERSONALES</h1>
 <table class="table">
-    @foreach (var saludo in Model.ListaSaludos) //se coloca la propiedad de List.cshtml.cs
+    @foreach (var saludo in Model.Saludos) //se coloca la propiedad de List.cshtml.cs
     {
         <tr>
-            <td>@saludo</td>
+            <td>@saludo.EnEspanol</td>
+            <td>@saludo.EnIngles</td>
+            <td>@saludo.EnItaliano</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-saludoId="@saludo.Id">
+                <i class="fas fa-info-circle"></i>
+                Registrar
+                </a>
+            </td>
+             <td>
+                <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-saludoId="@saludo.Id">
+                <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                Editar
+                </a>
+            </td>
         </tr>
     }
 </table>
+</body>
+
+</html>
