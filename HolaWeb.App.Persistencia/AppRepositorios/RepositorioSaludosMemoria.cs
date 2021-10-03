@@ -23,6 +23,12 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
                 new Saludo{Id=3, EnEspanol="Rocio Huertas", EnIngles="C.C 3348829", EnItaliano="305 2495354"}
             };
         }
+        public Saludo Add(Saludo nuevoSaludo)
+        {
+            nuevoSaludo.Id=saludos.Max(r=> r.Id)+1;
+            saludos.Add(nuevoSaludo);
+            return nuevoSaludo;
+        }
         public IEnumerable<Saludo> GetAll()
         {
             return saludos;

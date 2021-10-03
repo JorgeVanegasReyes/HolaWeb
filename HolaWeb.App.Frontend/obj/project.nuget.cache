@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "c++AH/eGq7c7oF+1BOd/ti3cvbdxrbjnhjChhAToMbMx8hjtjAMVMrdHfo9dPUnho4pg1zwC/a1ZK8C2XpMe1g==",
+  "dgSpecHash": "spXSjWkCc2vBewgsqpWpy6cR2Km453/0QaWT+XjWEmtpVLPdLIdD+DHDRBCh8++Au4qxVq2M04JJvOOAlwZE2g==",
   "success": true,
   "projectFilePath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jorge Eduardo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

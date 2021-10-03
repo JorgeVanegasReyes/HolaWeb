@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kJGLxQUGXOCKHOjYln160OLs7siIktSeAfz263vDeeTzptIiJy1502S316iWPlHbfpo1l4qDuQJTj0C+Vm0/NA==",
+  "dgSpecHash": "qpHT4N8uaZc6Gxkn+zaYvgx6sjWn9F1F1k8GdL6QUSvpcoB6mvQW+iYSj9heN+PsBNd3+6wF4KIZKU+XA6rxDQ==",
   "success": true,
   "projectFilePath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Persistencia\\HolaWeb.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jorge Eduardo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Jorge Eduardo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Jorge Eduardo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jorge Eduardo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
