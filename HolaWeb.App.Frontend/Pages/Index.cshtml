@@ -4,7 +4,62 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
+<!--<div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+</div>  -->
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Index.css" />
+    <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script>
+    
+    
+    </head> 
+
+<body>
+<form method="post">
+  <div>
+    <div class="formulario">
+        <h1><span> <i class="fas fa-file-signature"></i></span>Registrar envio del cliente</h1>
+        <br>
+      <div class="block"> 
+      <input type="text" id="Nombre" class="formulario__input" placeholder="Nombres" aria-label="Nombres">
+      <input type="text" id="Nombre" class="formulario__input" placeholder="Dirección de entrega" aria-label="Dirección de entrega">
+      <input type="text" class="formulario__input" placeholder="Apellidos" aria-label="Apellidos">
+      <input type="text" class="formulario__input" placeholder="Encargado designado" aria-label="Encargado designado">
+      <input type="text" class="formulario__input" placeholder="Cédula" aria-label="Cédula">
+      <input type="text" class="formulario__input" placeholder="Id Pedido" aria-label="Id Pedido">
+    </div>
+    <div class="block2">
+        <input type="text" class="formulario__input" placeholder="Celular" aria-label="Celular">    
+    </div>
+        <div class="row justify">
+          <div class="col">
+              <button type="submit" class="formulario__submit"><span> <i class="fas fa-file-signature"></i></span>Registrar</button> <!-- para que envie datos tiene que ser submit y no bottom -->    
+          </div>
+          <div class="col order-1">
+              <button type="submit" class="formulario__submit"><span> <i class="fas fa-search"></i></span>Buscar</button>
+          </div>
+          <div class="col order-2">
+              <button type="submit" class="formulario__submit"><span><i class="far fa-edit"></i></span>Actualizar</button>
+          </div>
+          <div class="col order-3">
+              <button type="submit" class="formulario__submit"><span><i class="far fa-trash-alt"></i></span> Eliminar</button>
+          </div>
+        </div>
+
+    </div>
+    
+    
+    </div>
+
+    </form>
+</body>
+
+</html>

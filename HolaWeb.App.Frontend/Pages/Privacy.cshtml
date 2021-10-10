@@ -3,6 +3,79 @@
 @{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Privacy.css" />
+    <script src="https://kit.fontawesome.com/0db1539af8.js" crossorigin="anonymous"></script>
+    
+    
+    </head> 
+
+<body>
+<form method="post">
+  <div>
+    <div class="formulario">
+        <h1><i class="fas fa-box-open"></i>ESTADO DE PAQUETE</h1>
+        <br>
+        <label for="inputState" class="form-label"><b><i class="fas fa-angle-double-right"></i><i class="fas fa-angle-double-right"></i> Datos del envio</b></label>
+      <div class="block"> 
+      <input type="text" class="formulario__input" placeholder="Id pedido" aria-label="Id pedido">
+      <input type="text" class="formulario__input" placeholder="Nombre cliente" aria-label="Nombre cliente">
+      <input type="text" class="formulario__input" placeholder="Encargado designado" aria-label="Encargado designado">
+      </div>
+
+      <label for="inputState" class="form-label"><b><i class="fas fa-angle-double-right"></i> <i class="fas fa-angle-double-right"></i> Datos del estado del paquete</b></label>
+    <div class="block2">
+        <input type="text" class="formulario__input" placeholder="Temperatura de la Zona" aria-label="Temperatura de la Zona">
+        <input type="text" class="formulario__input" placeholder="Tiempo de llegada" aria-label="Tiempo de llegada">        
+    </div>      
+              <div class="block3">
+                <label for="inputState" class="form-label2"><b>Estado del Drone</b></label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Bateria nivel Alto</option>
+                  <option>Bateria nivel Medio</option>
+                  <option>Bateria nivel Bajo</option>
+                  <option>Helices en buen estado</option>
+                  <option>Helices para cambio</option>
+                  <option>Perdida total</option>
+                </select>
+              
+              <br>
+              <br>
+                <label for="inputState" class="form-label2"><b>Estado del Paquete</b></label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Perfecto estado</option>
+                  <option>Bueno</option>
+                  <option>Regular</option>
+                  <option>destruido</option>
+                </select>
+                <div class="col">
+                   <button type="submit" class="formulario__submit"><i class="far fa-save"></i>Guardar</button> <!-- para que envie datos tiene que ser submit y no bottom -->    
+                </div>
+            </div>
+    </div>
+        
+          
+          
+        
+
+    </div>
+    
+    
+    </div>
+
+    </form>
+</body>
+
+</html>
+

@@ -16,28 +16,40 @@
 <body>
 <h1>DATOS PERSONALES</h1>
 <table class="table">
+
+    <thead>
+         <tr>
+            <th>NOMBRE</th>
+            <th>CÉDULA</th>
+            <th>CELULAR</th>
+        </tr>
+    </thead>
     @foreach (var saludo in Model.Saludos) //se coloca la propiedad de List.cshtml.cs
     {
+         
         <tr>
+           
             <td>@saludo.EnEspanol</td>
             <td>@saludo.EnIngles</td>
             <td>@saludo.EnItaliano</td>
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-saludoId="@saludo.Id">
-                <i class="fas fa-info-circle"></i>
-                Registrar
+                <i class="fas fa-search"></i>
+                Buscar
                 </a>
             </td>
              <td>
                 <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-saludoId="@saludo.Id">
-                <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                <i class="far fa-edit"></i>
                 Editar
                 </a>
             </td>
         </tr>
     }
 </table>
-<a asp-page="./Edit" class="btn btn-primary">Adicionar</a>
+<!-- <i class="fas fa-info-circle"></i>  Boton informacion
+<i class="fas fa-address-book fa-lg" aria-hidden="true"></i> Boton address-->
+<a asp-page="./Edit" class="btn btn-primary"><i class="fas fa-file-signature"></i>Adicionar</a>
 </body>
 
 </html>

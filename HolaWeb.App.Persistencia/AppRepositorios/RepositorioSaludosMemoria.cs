@@ -18,9 +18,10 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
                 new Saludo{Id=3, EnEspanol="Buenos Noches", EnIngles="Good Evening", EnItaliano="Buona notte"}
             };*/
             {
-                new Saludo{Id=1, EnEspanol="Alejandro Rodriguez", EnIngles="C.C 484848", EnItaliano="320 9495873"},
-                new Saludo{Id=2, EnEspanol="Sara Sanchez", EnIngles="C.C 5857733", EnItaliano="315 3484854"},
-                new Saludo{Id=3, EnEspanol="Rocio Huertas", EnIngles="C.C 3348829", EnItaliano="305 2495354"}
+                new Saludo{Id=1, EnEspanol="Alejandro Rodriguez", EnIngles="121484848", EnItaliano="320 9495873"},
+                new Saludo{Id=2, EnEspanol="Sara Sanchez", EnIngles="75857733", EnItaliano="315 3484854"},
+                new Saludo{Id=3, EnEspanol="Rocio Huertas", EnIngles="1343348829", EnItaliano="305 2495354"},
+                new Saludo{Id=4, EnEspanol="Rocio Huertas", EnIngles="1343348829", EnItaliano="305 2495354"}
             };
         }
         public Saludo Add(Saludo nuevoSaludo)

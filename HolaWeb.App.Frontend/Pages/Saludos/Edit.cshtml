@@ -3,6 +3,19 @@
 @{
 }
 
+<!DOCTYPE html>   <!--  -->
+<html lang="es">  <!-- tipo de lenguaje -->
+    
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Shipping Drone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Edit.css" />
+    </head>
+<body>
+    
+
 <h2>Edición de los Datos Personales:@Model.Saludo.EnEspanol</h2>
 <form method="post">
     <input type="hidden" asp-for="Saludo.Id"/> <!--para enlazar el id con el id de la propiedad modelo -->
@@ -30,3 +43,6 @@ new Saludo{Id=1, EnEspanol="Buenos Dias", EnIngles="Good Morning", EnItaliano="B
 new Saludo{Id=2, EnEspanol="Buenos Tardes", EnIngles="Good Afternoon", EnItaliano="Buon pomeriggio"},
 new Saludo{Id=3, EnEspanol="Buenos Noches", EnIngles="Good Evening", EnItaliano="Buona notte"}
             };-->
+
+</body>
+</html>
